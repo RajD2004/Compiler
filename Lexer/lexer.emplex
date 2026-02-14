@@ -1,0 +1,40 @@
+# This is an auto-generated Emplex configuration file.
+
+# Configuration settings (lines starting with ':' are config options)
+:out_filename lexer.hpp
+:lexer_name Lexer
+:token_name Token
+:dfa_name DFA
+:inc_guards EMPLEX_LEXER_HPP_INCLUDE_
+:name_space emplex
+:use_token_lexemes 1
+:use_token_line_num 1
+:use_token_column 1
+
+# Token names and regular expressions
+COMMENT_TOKEN #[^\n]*
+WHITESPACE_TOKEN [ \t\r\n]+
+FUNCTION_TOKEN FUNCTION
+RETURN_TOKEN RETURN
+WHILE_TOKEN WHILE
+IF_TOKEN IF
+ELIF_TOKEN ELIF
+ELSE_TOKEN ELSE
+BREAK_TOKEN BREAK
+CONTINUE_TOKEN CONTINUE
+TYPE_TOKEN FLOAT|INT|STRING|CHAR|VOID
+FLOAT_LITERAL_TOKEN [0-9]*\.[0-9]+|[0-9]+\.
+INT_LITERAL_TOKEN [0-9]+
+STRING_LITERAL_TOKEN "([^"\n\\]|\\.)*"
+CHAR_LITERAL_TOKEN '([^'\n\\]|\\.)'
+BOOLEAN_OPERATION_TOKEN \*\*|&&|\|\||<=|>=|==|!=
+OPERATOR_TOKEN [+\-*/%&|^!<>\[\]]
+IDENTIFIER_TOKEN [a-zA-Z_][a-zA-Z0-9_]*
+LEFT_BRACE_TOKEN {
+RIGHT_BRACE_TOKEN }
+LEFT_PAREN_TOKEN \(
+RIGHT_PAREN_TOKEN \)
+SEMICOLON_TOKEN ;
+COMMA_TOKEN ,
+COLON_TOKEN :
+ASSIGNMENT_TOKEN =
