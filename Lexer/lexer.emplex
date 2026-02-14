@@ -29,6 +29,7 @@ STRING_LITERAL_TOKEN "([^"\n\\]|\\.)*"
 CHAR_LITERAL_TOKEN '([^'\n\\]|\\.)'
 BOOLEAN_OPERATION_TOKEN \*\*|&&|\|\||<=|>=|==|!=
 OPERATOR_TOKEN [+\-*/%&|^!<>\[\]]
+PRINT_TOKEN PRINT
 IDENTIFIER_TOKEN [a-zA-Z_][a-zA-Z0-9_]*
 LEFT_BRACE_TOKEN {
 RIGHT_BRACE_TOKEN }

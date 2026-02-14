@@ -1,0 +1,15 @@
+#test if and elif and elif
+
+INT k = 0; 
+
+IF(k > 0){
+	PRINT("POSITIVE");
+}
+
+ELIF(k < 0){
+	PRINT("NEGATIVE");
+}
+
+ELSE{
+	PRINT("ZERO");
+}

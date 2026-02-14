@@ -1,0 +1,4 @@
+#print function test
+
+PRINT("STRING LITERAL\n")
+

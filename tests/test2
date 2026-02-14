@@ -1,0 +1,9 @@
+#test variable assignment
+
+INT i = 0;
+FLOAT j = 0.0;
+STRING k = "5.2";
+
+PRINT(i);
+PRINT(j);
+PRINT(k);

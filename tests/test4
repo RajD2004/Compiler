@@ -1,0 +1,9 @@
+#test while loops
+
+INT count = 15;
+
+WHILE(count > 0){
+	PRINT(count);
+	count = count - 1; 
+}
+
