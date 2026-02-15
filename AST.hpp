@@ -26,8 +26,11 @@
  *
  */
 
+#ifndef AST_HEADER_FILE
+#define AST_HEADER_FILE
 
 #include "Lexer/lexer.hpp"
+//#include "SymbolTable.hpp"
 
 class ASTNode{
 
@@ -73,3 +76,5 @@ class ASTNodeStringLiteral : public ASTNode {
 
 };
 
+
+#endif
